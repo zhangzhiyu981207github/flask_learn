@@ -1,4 +1,4 @@
-from flask import Flask
+from flask import Flask, current_app
 from flask import session, request, abort, g
 # 注册蓝图
 from passport import bp
